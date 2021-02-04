@@ -1,9 +1,9 @@
 # LCBcorp
 
-#Instructions
+## Instructions
 
-## 1. Download or clone git repository
+# 1. Download or clone git repository
 
-## 2. Open project
+# 2. Open project
 
-## 3. Open index.html file
+# 3. Open index.html file
