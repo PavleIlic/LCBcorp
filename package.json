@@ -1,0 +1,17 @@
+{
+  "name": "lcbkorp",
+  "version": "1.0.0",
+  "description": "Frontend task LCB corp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss -o public/css"
+  },
+  "author": "Pavle Ilic",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "node": "^15.7.0",
+    "node-sass": "^5.0.0"
+  }
+}

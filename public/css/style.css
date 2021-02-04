@@ -1,0 +1,510 @@
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  #navigation__main-container {
+    padding: 0 30px; }
+    #navigation__main-container .fa-bars {
+      display: block; }
+    #navigation__main-container .fa-times {
+      display: none; }
+    #navigation__main-container #nav {
+      width: 80%;
+      text-align: left;
+      padding-left: 10px; }
+      #navigation__main-container #nav .submenu-arrow {
+        background-color: #000000; }
+    #navigation__main-container #nav li {
+      margin-right: 0px;
+      color: #2a2a2a; }
+    #navigation__main-container #nav li a {
+      padding: 10px;
+      border-top: none; }
+      #navigation__main-container #nav li a .fa-chevron-down {
+        display: block;
+        float: right;
+        font-size: 20px;
+        text-align: right; }
+      #navigation__main-container #nav li a .fa-chevron-up {
+        display: block;
+        float: right;
+        font-size: 20px;
+        text-align: right; }
+    #navigation__main-container #nav li li a {
+      border-top: none;
+      color: #2a2a2a; }
+    #navigation__main-container #nav li li a:hover {
+      border-top: none; }
+    #navigation__main-container #nav li:first-child {
+      border-top: 2px solid #6fbf9a; }
+    #navigation__main-container #nav li:last-child {
+      padding-bottom: 50px; }
+    #navigation__main-container #nav li li:hover ul {
+      margin: 15px 0 0 15px;
+      padding-bottom: 0;
+      height: 50px; }
+    #navigation__main-container #nav li a:hover {
+      border-top: none;
+      color: #ffffff; }
+    #navigation__main-container #nav li:hover ul {
+      position: relative;
+      height: 260px;
+      top: -30px;
+      padding: 10px;
+      color: #838383; }
+  #navigation__main-container ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    padding: 10px;
+    right: 0px; }
+  #header__section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #6fbf9a; }
+    #header__section .header__main-container {
+      height: auto; }
+      #header__section .header__main-container .header__heading {
+        padding: 5px 10px 5px 0px;
+        margin: 0px 10px 10px 10px;
+        text-align: left;
+        font-size: 20px; }
+      #header__section .header__main-container .header__content {
+        margin: 10px 10px 0px 10px; }
+      #header__section .header__main-container .header__content:last-child {
+        padding-bottom: 70px; }
+  #content__section {
+    width: 100%;
+    height: auto;
+    position: relative; }
+    #content__section .all-cards {
+      margin: 0 20px; }
+      #content__section .all-cards .up-row {
+        width: 100%;
+        position: relative;
+        margin: 0px 20px 20px 10px;
+        text-align: center; }
+        #content__section .all-cards .up-row .upper-cards {
+          width: 94%;
+          margin-bottom: 65px; }
+        #content__section .all-cards .up-row .upper-cards:first-child .right-side {
+          padding: 30px 5px 20px 5px; }
+      #content__section .all-cards .down-row {
+        display: none; }
+  #banking-content {
+    width: 100%;
+    height: auto;
+    position: relative; }
+    #banking-content .banking-options {
+      text-align: left;
+      margin: 0px 20px; }
+    #banking-content .card-type {
+      display: block;
+      padding: 20px 2px 20px 2px;
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: flex-start; }
+      #banking-content .card-type .cards {
+        width: 32%;
+        display: inline-block;
+        text-align: center; }
+        #banking-content .card-type .cards .img-card {
+          width: calc(100% - 33%);
+          margin-right: 0px; }
+        #banking-content .card-type .cards p {
+          text-align: center; }
+    #banking-content .about-casinos {
+      padding: 10px 20px;
+      text-align: left; }
+  #articles-content {
+    width: 100%;
+    height: auto;
+    position: relative; }
+    #articles-content .article-type {
+      flex-wrap: wrap;
+      padding: 5px 0px 5px 5px;
+      margin-left: 10px;
+      width: auto; }
+      #articles-content .article-type .article {
+        width: calc(100% - 20px);
+        margin-right: 0px; }
+        #articles-content .article-type .article .img-card {
+          width: 100%;
+          margin-right: 0px; }
+        #articles-content .article-type .article .article-description {
+          margin-top: 10px; }
+        #articles-content .article-type .article .read-more {
+          align-content: center;
+          margin: 0 70px 10px 90px;
+          padding: 0px 10px; }
+    #articles-content .latest-articles {
+      margin: 5px 20px 10px 30px; }
+    #articles-content .for-mobile-show {
+      display: block;
+      position: relative;
+      margin-right: 0px; }
+    #articles-content .for-mobile-disable {
+      display: none; }
+    #articles-content .up-arrow {
+      display: none; }
+  #about-us {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px 10px 20px 10px;
+    height: auto; }
+    #about-us .contact {
+      margin-bottom: 10px; }
+    #about-us .social-media {
+      text-align: center;
+      float: none;
+      margin-top: 10px;
+      height: auto; }
+  #copyright {
+    padding: 10px;
+    height: 40px; }
+    #copyright p {
+      text-align: center; } }
+
+*, html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px; }
+
+.bold__word {
+  font-weight: 700; }
+
+.underline__word {
+  text-decoration: underline;
+  color: #367ee3; }
+
+#navigation__main-container {
+  background-color: #000000;
+  width: 100%;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between; }
+  #navigation__main-container .logo-image {
+    height: 30px;
+    width: 150px;
+    overflow: hidden;
+    margin: 20px 50px 20px -10px; }
+  #navigation__main-container #nav {
+    list-style: none inside;
+    z-index: 100;
+    margin-left: -20%;
+    padding: 15px 0px 0px 0px; }
+  #navigation__main-container #nav li {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    background: #000000;
+    margin-right: 20px; }
+  #navigation__main-container #nav li a {
+    display: block;
+    padding-top: 5px;
+    text-decoration: none;
+    background: #000000;
+    width: auto;
+    color: #ffffff;
+    z-index: 99; }
+    #navigation__main-container #nav li a .fa-chevron-down {
+      display: none; }
+    #navigation__main-container #nav li a .fa-chevron-up {
+      display: none; }
+  #navigation__main-container #nav li li a {
+    width: 250px;
+    padding: 10px;
+    color: #ffffff;
+    border-top: 1px solid #6a6a6a; }
+  #navigation__main-container #nav li li a:hover {
+    width: 250px;
+    padding: 10px;
+    color: #2a2a2a;
+    border-top: 1px solid #2a2a2a; }
+  #navigation__main-container #nav ul {
+    position: absolute;
+    top: 15px;
+    padding: 0;
+    left: 0;
+    display: none; }
+  #navigation__main-container #nav li:hover ul ul {
+    display: none; }
+  #navigation__main-container #nav li a:hover {
+    border-top: 5px solid #6fbf9a; }
+  #navigation__main-container #nav li:hover ul {
+    display: block;
+    margin-top: 25px; }
+  #navigation__main-container #nav li li:hover ul {
+    display: block;
+    margin-left: 250px;
+    margin-top: -15px; }
+  #navigation__main-container .fa-search {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 20px; }
+  #navigation__main-container .fa-bars {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 20px;
+    display: none; }
+  #navigation__main-container .fa-times {
+    font-size: 28px;
+    color: #ffffff;
+    margin-top: 20px;
+    display: none; }
+
+#header__section {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(0deg, rgba(111, 191, 154, 0.8), rgba(111, 191, 154, 0.8)), url("../../Images/header_bg.png"), #6fbf9a;
+  height: 450px; }
+  #header__section .header__main-container .header__heading {
+    margin: 0px 50px 10px 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: #000000; }
+  #header__section .header__main-container .header__content {
+    margin: 30px 250px 10px 250px;
+    color: #ffffff; }
+
+#content__section {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 50px;
+  background-color: #f2ede4; }
+  #content__section .all-cards {
+    margin: 0px 100px 100px 100px; }
+    #content__section .all-cards .up-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      #content__section .all-cards .up-row .upper-cards {
+        background-color: #ffffff;
+        border: 1px solid #6fbf9a;
+        width: 32%;
+        height: 300px;
+        border-radius: 15px;
+        margin-top: -50px;
+        margin-right: 10px;
+        z-index: 10; }
+        #content__section .all-cards .up-row .upper-cards .bookmark {
+          position: relative; }
+          #content__section .all-cards .up-row .upper-cards .bookmark .fa-bookmark {
+            position: absolute;
+            left: 20px;
+            top: 0px;
+            z-index: 99;
+            font-size: 40px;
+            color: #6fbf9a; }
+        #content__section .all-cards .up-row .upper-cards .left-side {
+          width: 40%;
+          float: left;
+          padding: 50px 10px 50px 30px; }
+          #content__section .all-cards .up-row .upper-cards .left-side .card-logo {
+            width: 120px;
+            height: auto; }
+          #content__section .all-cards .up-row .upper-cards .left-side .play-button {
+            background-color: #6fbf9a;
+            border-radius: 5px;
+            width: 120px;
+            color: #ffffff;
+            border: 1px solid #6fbf9a;
+            margin-top: 15px; }
+          #content__section .all-cards .up-row .upper-cards .left-side .large-body {
+            font-size: 17px;
+            font-weight: 700;
+            margin-top: 15px; }
+        #content__section .all-cards .up-row .upper-cards .right-side {
+          width: 60%;
+          float: right;
+          padding: 60px 5px 20px 5px;
+          text-align: center; }
+          #content__section .all-cards .up-row .upper-cards .right-side .stars {
+            color: #ef8846; }
+          #content__section .all-cards .up-row .upper-cards .right-side .t-c {
+            color: #f23827;
+            font-size: 14px;
+            font-weight: bold; }
+  #content__section .down-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; }
+    #content__section .down-row .lower-cards {
+      background-color: #ffffff;
+      border: 1px solid #6fbf9a;
+      width: 295px;
+      height: 500px;
+      border-radius: 15px;
+      text-align: center;
+      padding: 30px 0px;
+      margin-right: 10px; }
+      #content__section .down-row .lower-cards .card-logo {
+        width: 120px;
+        height: auto; }
+      #content__section .down-row .lower-cards .play-button {
+        background-color: #6fbf9a;
+        border-radius: 5px;
+        width: 120px;
+        color: #ffffff;
+        border: 1px solid #6fbf9a;
+        margin-top: 15px; }
+      #content__section .down-row .lower-cards .large-body {
+        font-size: 17px;
+        font-weight: 700;
+        margin-top: 15px; }
+      #content__section .down-row .lower-cards .stars {
+        color: #ef8846; }
+      #content__section .down-row .lower-cards .t-c {
+        color: #f23827;
+        font-size: 14px;
+        font-weight: bold; }
+
+#banking-content {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+  padding-top: 50px; }
+  #banking-content .banking-options {
+    margin: 0px 100px 20px 100px; }
+    #banking-content .banking-options .fa-money-bill-wave-alt {
+      font-size: 30px;
+      color: #6fbf9a;
+      margin-right: 20px; }
+    #banking-content .banking-options .banking-heading {
+      display: inline-block; }
+    #banking-content .banking-options .online-casinos {
+      font-size: 14px; }
+  #banking-content .card-type {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px 20px 120px; }
+    #banking-content .card-type .cards {
+      position: relative;
+      text-align: center; }
+      #banking-content .card-type .cards .img-card {
+        width: 180px;
+        height: auto;
+        margin-right: 15px; }
+  #banking-content .about-casinos {
+    padding: 0px 100px 20px 100px; }
+
+#articles-content {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 50px;
+  background-color: #f8f8f8;
+  padding-top: 50px; }
+  #articles-content .latest-articles {
+    margin: 0px 100px 20px 100px; }
+    #articles-content .latest-articles .fa-print {
+      font-size: 30px;
+      color: #367ee3;
+      margin-right: 20px; }
+    #articles-content .latest-articles .article-heading {
+      display: inline-block; }
+  #articles-content .article-type {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px 20px 120px; }
+    #articles-content .article-type .article {
+      position: relative;
+      width: 280px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      border: 1px solid #f5f5f5;
+      margin-right: 20px; }
+      #articles-content .article-type .article .img-card {
+        width: 280px;
+        height: auto;
+        margin-right: 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; }
+      #articles-content .article-type .article .about-article {
+        width: 100%;
+        padding: 10px; }
+        #articles-content .article-type .article .about-article .author {
+          float: left;
+          font-weight: lighter; }
+        #articles-content .article-type .article .about-article .date {
+          float: right;
+          font-weight: lighter; }
+      #articles-content .article-type .article .article-description {
+        margin-top: 20px;
+        padding: 10px; }
+      #articles-content .article-type .article .read-more {
+        background-color: #367ee3;
+        color: #ffffff;
+        border: 1px solid #367ee3;
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        margin: 10px 40px; }
+      #articles-content .article-type .article .lil-banner {
+        position: relative; }
+        #articles-content .article-type .article .lil-banner .lil-banner__text {
+          position: absolute;
+          left: 10px;
+          top: 10px;
+          z-index: 99;
+          font-size: 12px;
+          color: #000000;
+          background-color: #faefc4;
+          border: 1px solid #f5f5f5;
+          border-radius: 5px;
+          padding: 2px; }
+  #articles-content .up-arrow {
+    position: relative; }
+    #articles-content .up-arrow .fa-chevron-up {
+      position: absolute;
+      right: 10px;
+      bottom: -30px;
+      z-index: 99;
+      font-size: 50px;
+      color: #ffffff;
+      padding: 5px;
+      background-color: #6fbf9a;
+      border: 1px solid #f5f5f5;
+      border-radius: 50%; }
+
+#about-us {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 50px 80px 70px 80px;
+  background-color: #2a2a2a; }
+  #about-us .contact {
+    list-style-type: none;
+    flex-grow: 1;
+    float: left;
+    padding-top: 2px;
+    color: #9DB5D5; }
+    #about-us .contact li {
+      display: inline-block;
+      margin-right: 20px; }
+  #about-us .social-media {
+    float: right; }
+    #about-us .social-media .fa-facebook-square {
+      font-size: 40px;
+      color: #9DB5D5;
+      margin-right: 10px; }
+    #about-us .social-media .fa-twitter-square {
+      font-size: 40px;
+      color: #9DB5D5;
+      margin-right: 10px; }
+    #about-us .social-media .fa-rss-square {
+      font-size: 40px;
+      color: #9DB5D5;
+      margin-right: 10px; }
+
+#copyright {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 10px 120px 10px 120px;
+  background-color: #0E0E0E;
+  color: #ffffff; }

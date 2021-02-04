@@ -1,0 +1,253 @@
+$white: #ffffff;
+$grey-lighter: #f8f8f8;
+$grey-light: #f5f5f5;
+$grey-dark: #2a2a2a;
+$grey-darker: #0d0d0d;
+$black: #000000;
+$primary: #6fbf9a;
+$primary-dark: #54bf98;
+$secondary: #367ee3;
+$secondary-darker: #266bcb;
+$secondary-light: #dde0e3;
+$tertiary: #f23827;
+$yellow: #f2b705;
+$orange: #ef8846;
+$accent: #faefc4;
+$accent-light: #f2ede4;
+
+@mixin logo {
+  width: 120px;
+  height: auto;
+}
+
+@mixin play-button {
+  background-color: $primary;
+  border-radius: 5px;
+  width: 120px;
+  color: $white;
+  border: 1px solid $primary;
+  margin-top: 15px;
+}
+
+@mixin large-body{
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+@mixin margins {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+//Iphone 6,7, 8+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3){
+  #navigation__main-container{
+    padding: 0 30px;
+    .fa-bars{
+      display: block;
+    }
+    .fa-times{
+      display: none;
+    }
+    #nav {
+      width: 80%;
+      text-align: left;
+      padding-left: 10px;
+      .submenu-arrow{
+        background-color: $black;
+
+      }
+    }
+    #nav li{
+      margin-right: 0px;
+      color: $grey-dark;
+    }
+    #nav li a{
+      padding: 10px;
+      border-top: none;
+      .fa-chevron-down{
+        display: block;
+        float: right;
+        font-size: 20px;
+        text-align: right;
+      }
+      .fa-chevron-up{
+        display: block;
+        float: right;
+        font-size: 20px;
+        text-align: right;
+      }
+
+    }
+    #nav li li a {
+      border-top: none;
+      color: $grey-dark;
+    }
+    #nav li li a:hover {
+      border-top: none;
+    }
+    #nav li:first-child{
+      border-top: 2px solid $primary;
+    }
+    #nav li:last-child{
+      padding-bottom: 50px;
+    }
+    #nav li li:hover ul{
+      margin: 15px 0 0 15px;
+      padding-bottom: 0;
+      height: 50px;
+    }
+    #nav li a:hover{
+      border-top: none;
+      color: $white;
+    }
+    #nav li:hover ul {
+      position: relative;
+      height: 260px;
+      top: -30px;
+      padding: 10px;
+      color: #838383;
+    }
+  }
+  #navigation__main-container ul{
+    display: none;
+    position: absolute;
+    top: 55px;
+    padding: 10px;
+    right: 0px;
+  }
+  #header__section{
+    @include margins;
+    background: $primary;
+    .header__main-container{
+      height: auto;
+      .header__heading{
+        padding: 5px 10px 5px 0px;
+        margin: 0px 10px 10px 10px;
+        text-align: left;
+        font-size: 20px;
+      }
+      .header__content{
+        margin: 10px 10px 0px 10px;
+      }
+      .header__content:last-child{
+        padding-bottom: 70px;
+      }
+    }
+  }
+  #content__section{
+    @include margins;
+    .all-cards{
+      margin: 0 20px;
+      .up-row{
+        width: 100%;
+        position: relative;
+        margin: 0px 20px 20px 10px;
+        text-align: center;
+        .upper-cards{
+          width: 94%;
+          margin-bottom: 65px;
+        }
+        .upper-cards:first-child .right-side{
+          padding: 30px 5px 20px 5px;
+        }
+      }
+      .down-row{
+        display: none;
+      }
+    }
+  }
+  #banking-content{
+    @include margins;
+    .banking-options{
+      text-align: left;
+      margin: 0px 20px;
+    }
+    .card-type{
+      display: block;
+      padding: 20px 2px 20px 2px;
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .cards{
+        width: 32%;
+        display: inline-block;
+        text-align: center;
+        .img-card{
+          width: calc(100% - 33%);
+          margin-right: 0px;
+        }
+        p {
+         text-align: center;
+        }
+      }
+    }
+    .about-casinos{
+      padding: 10px 20px;
+      text-align: left;
+    }
+  }
+  #articles-content{
+    @include margins;
+    .article-type{
+      flex-wrap: wrap;
+      padding: 5px 0px 5px 5px;
+      margin-left: 10px;
+      width: auto;
+      .article{
+        width: calc(100% - 20px);
+        margin-right: 0px;
+        .img-card{
+          width: 100%;
+          margin-right: 0px;
+        }
+        .article-description{
+          margin-top: 10px;
+        }
+        .read-more{
+          align-content: center;
+          margin: 0 70px 10px 90px;
+          padding: 0px 10px;
+        }
+      }
+    }
+    .latest-articles{
+      margin: 5px 20px 10px 30px;
+    }
+    .for-mobile-show{
+      display: block;
+      position: relative;
+      margin-right: 0px;
+    }
+    .for-mobile-disable{
+      display: none;
+    }
+    .up-arrow{
+      display: none;
+    }
+  }
+  #about-us{
+    @include margins;
+    padding: 20px 10px 20px 10px;
+    height: auto;
+    .contact{
+      margin-bottom: 10px;
+    }
+    .social-media{
+      text-align: center;
+      float: none;
+      margin-top: 10px;
+      height: auto;
+    }
+  }
+  #copyright{
+    padding: 10px;
+    height: 40px;
+    p {
+      text-align: center;
+    }
+  }
+}
+

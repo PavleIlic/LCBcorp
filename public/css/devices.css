@@ -1,0 +1,165 @@
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  #navigation__main-container {
+    padding: 0 30px; }
+    #navigation__main-container .fa-bars {
+      display: block; }
+    #navigation__main-container .fa-times {
+      display: none; }
+    #navigation__main-container #nav {
+      width: 80%;
+      text-align: left;
+      padding-left: 10px; }
+      #navigation__main-container #nav .submenu-arrow {
+        background-color: #000000; }
+    #navigation__main-container #nav li {
+      margin-right: 0px;
+      color: #2a2a2a; }
+    #navigation__main-container #nav li a {
+      padding: 10px;
+      border-top: none; }
+      #navigation__main-container #nav li a .fa-chevron-down {
+        display: block;
+        float: right;
+        font-size: 20px;
+        text-align: right; }
+      #navigation__main-container #nav li a .fa-chevron-up {
+        display: block;
+        float: right;
+        font-size: 20px;
+        text-align: right; }
+    #navigation__main-container #nav li li a {
+      border-top: none;
+      color: #2a2a2a; }
+    #navigation__main-container #nav li li a:hover {
+      border-top: none; }
+    #navigation__main-container #nav li:first-child {
+      border-top: 2px solid #6fbf9a; }
+    #navigation__main-container #nav li:last-child {
+      padding-bottom: 50px; }
+    #navigation__main-container #nav li li:hover ul {
+      margin: 15px 0 0 15px;
+      padding-bottom: 0;
+      height: 50px; }
+    #navigation__main-container #nav li a:hover {
+      border-top: none;
+      color: #ffffff; }
+    #navigation__main-container #nav li:hover ul {
+      position: relative;
+      height: 260px;
+      top: -30px;
+      padding: 10px;
+      color: #838383; }
+  #navigation__main-container ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    padding: 10px;
+    right: 0px; }
+  #header__section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #6fbf9a; }
+    #header__section .header__main-container {
+      height: auto; }
+      #header__section .header__main-container .header__heading {
+        padding: 5px 10px 5px 0px;
+        margin: 0px 10px 10px 10px;
+        text-align: left;
+        font-size: 20px; }
+      #header__section .header__main-container .header__content {
+        margin: 10px 10px 0px 10px; }
+      #header__section .header__main-container .header__content:last-child {
+        padding-bottom: 70px; }
+  #content__section {
+    width: 100%;
+    height: auto;
+    position: relative; }
+    #content__section .all-cards {
+      margin: 0 20px; }
+      #content__section .all-cards .up-row {
+        width: 100%;
+        position: relative;
+        margin: 0px 20px 20px 10px;
+        text-align: center; }
+        #content__section .all-cards .up-row .upper-cards {
+          width: 94%;
+          margin-bottom: 65px; }
+        #content__section .all-cards .up-row .upper-cards:first-child .right-side {
+          padding: 30px 5px 20px 5px; }
+      #content__section .all-cards .down-row {
+        display: none; }
+  #banking-content {
+    width: 100%;
+    height: auto;
+    position: relative; }
+    #banking-content .banking-options {
+      text-align: left;
+      margin: 0px 20px; }
+    #banking-content .card-type {
+      display: block;
+      padding: 20px 2px 20px 2px;
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: flex-start; }
+      #banking-content .card-type .cards {
+        width: 32%;
+        display: inline-block;
+        text-align: center; }
+        #banking-content .card-type .cards .img-card {
+          width: calc(100% - 33%);
+          margin-right: 0px; }
+        #banking-content .card-type .cards p {
+          text-align: center; }
+    #banking-content .about-casinos {
+      padding: 10px 20px;
+      text-align: left; }
+  #articles-content {
+    width: 100%;
+    height: auto;
+    position: relative; }
+    #articles-content .article-type {
+      flex-wrap: wrap;
+      padding: 5px 0px 5px 5px;
+      margin-left: 10px;
+      width: auto; }
+      #articles-content .article-type .article {
+        width: calc(100% - 20px);
+        margin-right: 0px; }
+        #articles-content .article-type .article .img-card {
+          width: 100%;
+          margin-right: 0px; }
+        #articles-content .article-type .article .article-description {
+          margin-top: 10px; }
+        #articles-content .article-type .article .read-more {
+          align-content: center;
+          margin: 0 70px 10px 90px;
+          padding: 0px 10px; }
+    #articles-content .latest-articles {
+      margin: 5px 20px 10px 30px; }
+    #articles-content .for-mobile-show {
+      display: block;
+      position: relative;
+      margin-right: 0px; }
+    #articles-content .for-mobile-disable {
+      display: none; }
+    #articles-content .up-arrow {
+      display: none; }
+  #about-us {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px 10px 20px 10px;
+    height: auto; }
+    #about-us .contact {
+      margin-bottom: 10px; }
+    #about-us .social-media {
+      text-align: center;
+      float: none;
+      margin-top: 10px;
+      height: auto; }
+  #copyright {
+    padding: 10px;
+    height: 40px; }
+    #copyright p {
+      text-align: center; } }
